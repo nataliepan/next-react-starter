@@ -103,5 +103,11 @@ def sentiment_analysis(token, message):
 
     data = conversation.run(message)
 
+<<<<<<< Updated upstream
     print(data)
+=======
+    # Convert the dictionary to a JSON string
+    # response_json = json.dumps(data)
+    # print(response_json)
+>>>>>>> Stashed changes
     return generate_response(data=data, message="Sentiment Analysis", status=HTTP_201_CREATED)
